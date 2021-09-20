@@ -6,7 +6,7 @@
 #LUCAS CHICHIZOLA 
 
 ##  CARPETA : stored procedure ### 
-#En la carpeta stored procedure se encontrar 4 archivos:
+#En la carpeta stored procedure se encuentran 4 archivos:
 
 #VerHorasCargadasPorFecha.sp
 #ActualizarCargaDeHoras.sp
