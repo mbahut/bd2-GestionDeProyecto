@@ -3,7 +3,7 @@
 #ALUMNOS:
 
 #BAHUT MATIAS
-#LUCAS CHICHIZOLA 
+#LUCAS CHICHIZOLA
 
 #CARPETA : DDL
 #El archivo esquema.sql creara una base de datos con el nombre GestionProyecto
