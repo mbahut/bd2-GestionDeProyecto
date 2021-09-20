@@ -1,21 +1,21 @@
-BASE DE DATOS II
+#BASE DE DATOS II
 
-ALUMNOS:
+#ALUMNOS:
 
-BAHUT MATIAS
-LUCAS CHICHIZOLA 
+#BAHUT MATIAS
+#LUCAS CHICHIZOLA 
 
-CARPETA : DDL
-El archivo esquema.sql creara una base de datos con el nombre GestionProyecto
-La cual contendra las siguientes tablas:
-
-
-cliente
-proyecto
-empleado
-rol
-HorasProyecto
-liquidacion
+#CARPETA : DDL
+#El archivo esquema.sql creara una base de datos con el nombre GestionProyecto
+#La cual contendra las siguientes tablas:
 
 
-Se recomienda continuar con la carpeta test para insertar los datos en la base de datos para continuar
+#cliente
+#proyecto
+#empleado
+#rol
+#HorasProyecto
+#liquidacion
+
+
+#Se recomienda continuar con la carpeta test para insertar los datos en la base de datos
