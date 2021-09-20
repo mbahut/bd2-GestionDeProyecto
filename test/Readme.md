@@ -6,7 +6,7 @@
 #LUCAS CHICHIZOLA 
 
 ##  CARPETA : TEST ### 
-#En la carpeta test se encontrar 2 archivos 
+#En la carpeta test se encuentran 2 archivos 
 #InsertarDatosDeEjemplo.sql y  EjecucionDeSp.sql #
 
 
