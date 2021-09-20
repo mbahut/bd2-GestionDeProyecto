@@ -15,7 +15,7 @@
 # El Archivo 'InsertarDatosDeEjemplo.sql' 
 #El cual tendra información para insertar datos en las tablas:  Rol, Empleado, Cliente y Proyecto.
 
-#para insertar datos en las tablas, se utilizara los mismos STORED PROCEDURE.
+#para insertar datos en las otras tablas, se utilizara los mismos STORED PROCEDURE.
 
 
 # El archivo "EjecucionDeSp.sql" 
