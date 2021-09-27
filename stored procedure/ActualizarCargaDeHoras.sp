@@ -8,15 +8,17 @@ LUCAS CHICHIZOLA
 
 drop procedure ActualizarCargaDeHoras;
 delimiter $$
-create procedure ActualizarCargaDeHoras (in plegajo int, in phoras int, in pidproyecto int, in pfechaInicio date, in pfechaFin date)
+create procedure ActualizarCargaDeHoras ( in plegajo int, in pidproyecto int, in phoras int, in pfechaInicioOld date, in pfechaFinOld date,in pfechaInicioNew date, in pfechaFinNew date)
 BEGIN
 	 update horasproyecto 
-      set horas  = phoras
+      set horas  = phoras,
+	   fechaInicio = pfechaInicioNew,
+       fechaFin = pfechaFinNew
+	  
      where legajo = plegajo 
       and idproyecto = pidproyecto
-      and fechaInicio = pfechaInicio
-      and fechaFin = pfechaFin;
+      and fechaInicio = pfechaInicioOld
+      and fechaFin = pfechaFinOld;
 END $$
 
-/* legajo, horas, idproyecto, fechaInicio, FechaFin*/
--- call ActualizarCargaDeHoras (10, 8, 1,'2021-09-21' ,'2021-09-22');
+

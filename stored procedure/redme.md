@@ -22,13 +22,13 @@
 
 
 ## ActualizarCargaDeHoras.sp ##  
-##El sp contiene CINCO parametro de entrada: legajo, horas, idproyecto, fechaInicio, FechaFin
-#No devuelve información.
+##El sp contiene SIETE parametro de entrada: ( plegajo,  pidproyecto,  phoras,  pfechaInicioOld, pfechaFinOld, pfechaInicioNew, pfechaFinNew )
+#para actualizar información previamente cargada, hay que cargar los mismos parametros e indicar las fechas nuevas.
 
 
-## RendicionDeHoras_V1.sp ##  
+## RendicionDeHoras.sp ##  
 #El sp contiene CINCO parametro de entrada: proyecto - legajo - horas - fechaInicio - FechaFin
-#No devuelve información.
+
 #Está pensado para cargar las horas trabajadas.
 #ejemplo:
 #8 -  2021-09-20 - 2021-09-21
@@ -41,7 +41,7 @@
 #El procedimiento está pensado para realizar la liquidacion de horas para un CLIENTE , PROYETO y FECHAS DADAS.
 
 #En este caso, el usuario autorizado para ejecutar la liquidacion es el Rol de Administrador. (ROl = 4).
-#La ejecución por cualquier otro ROL devolvera un Mensaje con dicha leyenda.
+# La ejecución por cualquier otro ROL devolvera un Mensaje indicando que no está autorizado.
 
 #Si en la TABLA HorasProyectos hay algun cambio de HORAS para algunos de los proyectos,
 #al ejecutar nuevamente este Procedimiento, insertara una nueva lidacion con dicha diferencia de horas.

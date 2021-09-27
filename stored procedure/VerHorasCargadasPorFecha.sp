@@ -16,6 +16,3 @@ BEGIN
     and h.fechaFin <= pfechaMesFin;
 END $$
 
-
-/* fecha Ini - Fecha fin */
---  call VerHorasCargadasPorFecha ('2021-09-01' ,'2021-09-30');

@@ -12,13 +12,15 @@
 
 
 
-# El Archivo 'InsertarDatosDeEjemplo.sql' 
-#El cual tendra información para insertar datos en las tablas:  Rol, Empleado, Cliente y Proyecto.
-
-#para insertar datos en las tablas, se utilizara los mismos STORED PROCEDURE.
+# El Archivo 'InsertarDatosDeEjemploINICIALES.sql' 
+# El cual tendra información para insertar datos en las tablas:  Rol, Empleado, Cliente y Proyecto.necesarios para ejecutar los procedimientos
 
 
-# El archivo "EjecucionDeSp.sql" 
-#contiene unicamente las instrucciones para realizar la llamada a los Stored Procedure, indicando el orden de cada uno de los parametros.
-#En este caso los stored procedures necesitan estar ya creados en la base de datos.
 
+
+# El archivo "TEST.sql" 
+# este .sql contiene información para 
+# 1 )cargar HORAS en los proyectos por medio de los Stored Procedure.
+# 2 ) poder realizar liquidacion de horas
+# 3 ) poder actualizar horas o insertando nuevos registros con horas
+# 4) volver a calcular la liquidacion de horas si corresponde
