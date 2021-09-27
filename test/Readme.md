@@ -6,7 +6,7 @@
 #LUCAS CHICHIZOLA 
 
 ##  CARPETA : TEST ### 
-#En la carpeta test se encontrar 2 archivos 
+#En la carpeta test se encuentran 2 archivos 
 #InsertarDatosDeEjemplo.sql y  EjecucionDeSp.sql #
 
 
@@ -15,6 +15,10 @@
 # El Archivo 'InsertarDatosDeEjemploINICIALES.sql' 
 # El cual tendra información para insertar datos en las tablas:  Rol, Empleado, Cliente y Proyecto.necesarios para ejecutar los procedimientos
 
+<<<<<<< HEAD
+=======
+#para insertar datos en las otras tablas, se utilizara los mismos STORED PROCEDURE.
+>>>>>>> a5d0409026855581edc0a19734aefeb40574b443
 
 
 
