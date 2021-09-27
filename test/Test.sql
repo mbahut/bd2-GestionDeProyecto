@@ -184,7 +184,7 @@ REALIZAMOS LA LIQUIDACION HASTA EL MOMENTO DE LOS CLIENTES Y PROYECTOS CARGADOS 
         call CalcularLiquidacionMensual(4,5,8, '2021-09-01','2021-10-01');
          call CalcularLiquidacionMensual(4,6,9, '2021-09-01','2021-10-01');
           call CalcularLiquidacionMensual(4,7,10, '2021-09-01','2021-10-01');
-          select sum(cantidadhoras) 'HP antes' from liquidacion
+          select sum(cantidadhoras) 'HP antes' from liquidacion;
 
 
 /* 
@@ -195,6 +195,7 @@ REALIZAMOS LA LIQUIDACION HASTA EL MOMENTO DE LOS CLIENTES Y PROYECTOS CARGADOS 
 
 /* ACTUALIZA:  legajo - idproyecto - horas - fechaInicio Vieja - FechaFin vieja - fechaInicio Nueva - FechaFin NUeva */
 /* RENDICION:  legajo - proyecto   - horas - fechaInicio - FechaFin - */
+
 call ActualizarCargaDeHoras(5 ,5 ,32,'2021-09-27','2021-09-28','2021-09-27','2021-10-01');  -- Legajo 5 : Se actualiza el ultimo registro de 8 a 32 hs. TOTAL de HORAS 176 hs para ese legajo
 call rendicionDeHoras      (10,7 ,32,'2021-09-27','2021-10-01');                            -- Legajo 10: Se Insertan horas que no estaban. -- TOTAL DE HORAS 128 a 160 hs. para ese legajo.
 call ActualizarCargaDeHoras(12,8 ,24,'2021-09-27','2021-10-01','2021-09-27','2021-09-30');  -- Legajo 12: Se Eliminan 3 días -- TOTAL DE HORAS 184 a 176 hs para ese legajo.
